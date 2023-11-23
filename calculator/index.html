@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator-container">
+      <input type="text" class="display" />
+
+      <div class="buttons">
+        <button class="character operator" data-value="AC">AC</button>
+        <button class="character operator" data-value="DEL">DEL</button>
+        <button class="character operator" data-value="%">%</button>
+        <button class="character operator" data-value="/">/</button>
+
+        <button class="character" data-value="7">7</button>
+        <button class="character" data-value="8">8</button>
+        <button class="character" data-value="9">9</button>
+        <button class="character operator" data-value="*">*</button>
+
+        <button class="character" data-value="4">4</button>
+        <button class="character" data-value="5">5</button>
+        <button class="character" data-value="6">6</button>
+        <button class="character operator" data-value="-">-</button>
+
+        <button class="character" data-value="1">1</button>
+        <button class="character" data-value="2">2</button>
+        <button class="character" data-value="3">3</button>
+        <button class="character operator" data-value="+">+</button>
+
+        <button class="character" data-value="00">00</button>
+        <button class="character" data-value="0">0</button>
+        <button class="character" data-value=".">.</button>
+        <button class="character operator equal" data-value="=">=</button>
+      </div>
+    </div>
+  </body>
+</html>
